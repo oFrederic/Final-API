@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Final Fantasy",
+    "platforme": "Nintendo",
+    "type": "RPG",
+    "developer": "Squaresoft",
+    "editeur": "Square Co., Ltd",
+    "format": "Cartridge (4 Mo)",
+    "release": "12-18-1987"
+    "img": "https://old.ffdream.com/data/media/images/ff1/coverfrontnes.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy II",
+    "platforme": "Nintendo",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "Cartridge (4 Mo)",
+    "release": "12-17-1988",
+    "img": "https://old.ffdream.com/data/media/images/ff2/coverfrontnes.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy III",
+    "platforme": "Nintendo",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "Cartridge (4 Mo)",
+    "release": "04-27-1990",
+    "img": "https://old.ffdream.com/data/media/images/ff3/coverfrontjap.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy IV",
+    "platforme": "Super Nintendo",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "Cartridge (8 Mo)",
+    "release": "07-19-1991",
+    "img": "https://old.ffdream.com/data/media/images/ff4/coverfronthardjap.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy V",
+    "platforme": "Super Nintendo",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "Cartridge (16 Mo)",
+    "release": "12-06-1992",
+    "img": "https://old.ffdream.com/data/media/images/ff5/coverfrontjap.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy VI",
+    "platforme": "Super Nintendo",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "Cartridge (24 Mo)",
+    "release": "04-02-1994",
+    "img": "https://old.ffdream.com/data/media/images/ff6/coversnesjapfront.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy VII",
+    "platforme": "PlayStation",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "CD-Rom (3)",
+    "release": "31-01-1997",
+    "img": "https://old.ffdream.com/data/media/images/ff7/coverfront.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy VIII",
+    "platforme": "PlayStation",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "CD-Rom (4)",
+    "release": "02-11-1999",
+    "img": "https://old.ffdream.com/data/media/images/ff8/ff8_photos/coverfront.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy IX",
+    "platforme": "PlayStation",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "CD-Rom (4)",
+    "release": "07-07-2000",
+    "img": "https://old.ffdream.com/data/media/images/ff9/coverfront.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy X",
+    "platforme": "PlayStation2",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "DVD-Rom (1)",
+    "release": "07-19-2001",
+    "img": "https://old.ffdream.com/data/media/images/ff10/coverfr.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy X-2",
+    "platforme": "PlayStation2",
+    "type "RPG",
+    "developer": "Squaresoft",
+    "editor": "Square Co., Ltd",
+    "format": "DVD-Rom (1)",
+    "release": "03-13-2003",
+    "img": "https://old.ffdream.com/data/media/images/ffx2/coverfront.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy XI",
+    "platforme": "PC",
+    "type "MMORPG",
+    "developer": "Square-Enix",
+    "editor": "Square Enix Co., Ltd",
+    "format": "DVD-Rom (4)",
+    "release": "15-05-2002",
+    "img": "http://www.playonline.com/ff11/vanaproj/img/common/key_visual/7.png"
+  },
+  
+  {
+    "name": "Final Fantasy XII",
+    "platforme": "PlayStation2",
+    "type "RPG",
+    "developer": "Square-Enix",
+    "editor": "Square Enix Co., Ltd",
+    "format": "DVD-Rom (1)",
+    "release": "03-16-2006",
+    "img": "https://old.ffdream.com/data/media/images/ff12/coverfront.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy XIII",
+    "platforme": "PlayStation3",
+    "type "RPG",
+    "developer": "Square-Enix",
+    "editor": "Square Enix Co., Ltd",
+    "format": "Blue-ray Disc (1)",
+    "release": "12-17-2009",
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/47/Final_Fantasy_XIII_EU_box_art.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy XIII-2",
+    "platforme": "PlayStation3",
+    "type "RPG",
+    "developer": "Square-Enix",
+    "editor": "Square Enix Co., Ltd",
+    "format": "Blue-ray Disc (1)",
+    "release": "15-12-2011",
+    "img": "https://old.ffdream.com/data/media/images/ff13_2/cover-ff13_2.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy XIV",
+    "platforme": "PC",
+    "type "MMORPG",
+    "developer": "Square-Enix",
+    "editor": "Square Enix Co., Ltd",
+    "format": "DVD-Rom (1)",
+    "release": "09-30-2010",
+    "img": "https://old.ffdream.com/data/media/images/ff14/coverfront.jpg"
+  },
+  
+  {
+    "name": "Final Fantasy XV",
+    "platforme": "PlayStation4",
+    "type "RPG",
+    "developer": "Square-Enix",
+    "editor": "Square Enix Co., Ltd",
+    "format": "Blue-ray Disc (1)",
+    "release": "11-29-2016",
+    "img": "https://old.ffdream.com/data/media/images/ff15/ffxv_cover_eu_na_ps4.jpg"
+  },
+]
