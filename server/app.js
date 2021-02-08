@@ -1,21 +1,10 @@
-const fs = require('fs');
 const express = require('express');
+const morgan = require('morgan');
+const gameRouter = require('../routes/gameRoutes');
 
 const app = express();
 
-const games = JSON.parse(fs.readFileSync(`${__dirname}/../data/games.json`));
+app.use(morgan('dev'));
+app.use('/api/games', gameRouter);
 
-app.get('/api/games', (req, res) => {
-  res.status(200).json({
-    status: 'success',
-    result: games.length,
-    data: {
-      games,
-    },
-  });
-});
-
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`App running on http://127.0.0.1:${PORT}...`);
-});
+module.exports = app;
