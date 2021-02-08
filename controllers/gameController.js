@@ -1,30 +1,37 @@
-const fs = require('fs');
+const Game = require('./../models/gameModel');
 
-const games = JSON.parse(fs.readFileSync(`${__dirname}/../data/games.json`));
+exports.getAllGames = async (req, res) => {
+  try {
+    const games = await Game.find();
 
-exports.getAllGames = (req, res) => {
-  res.status(200).json({
-    status: 'success',
-    result: games.length,
-    data: {
-      games,
-    },
-  });
-};
-
-exports.getGame = (req, res) => {
-  const id = Number(req.params.id);
-  const game = games.find(item => item.id === id);
-  if (!game) {
-    return res.status(404).json({
+    res.status(200).json({
+      status: 'success',
+      result: games.length,
+      data: {
+        games,
+      },
+    });
+  } catch (err) {
+    res.status(404).json({
       status: 'fail',
-      message: 'Invalid ID',
+      message: err,
     });
   }
-  res.status(200).json({
-    status: 'success',
-    data: {
-      game,
-    },
-  });
+};
+
+exports.getGame = async (req, res) => {
+  try {
+    const game = await Game.findById(req.params.id);
+    res.status(200).json({
+      status: 'success',
+      data: {
+        game,
+      },
+    });
+  } catch (err) {
+    res.status(404).json({
+      status: 'fail',
+      message: err,
+    });
+  }
 };
