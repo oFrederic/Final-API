@@ -2,7 +2,13 @@ const Game = require('./../models/gameModel');
 
 exports.getAllGames = async (req, res) => {
   try {
-    const games = await Game.find();
+    // const games = await Game.find()
+    //   .where('platforme')
+    //   .equals('Nintendo')
+    //   .where('developer')
+    //   .equals('Squaresoft');
+
+    const games = await Game.find(req.body);
 
     res.status(200).json({
       status: 'success',

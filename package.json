@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "server": "nodemon server.js",
+    "start": "nodemon server/server.js",
+    "data:import": "node data/import.js --import",
+    "data:delete": "node data/import.js --delete",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"

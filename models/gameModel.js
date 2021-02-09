@@ -18,7 +18,7 @@ const gameSchema = new mongoose.Schema({
     type: String,
     required: [true, 'A game must have a developer'],
   },
-  editeur: {
+  editor: {
     type: String,
     required: [true, 'A game must have a editeur'],
   },

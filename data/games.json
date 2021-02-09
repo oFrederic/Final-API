@@ -1,18 +1,16 @@
 [
   {
-    "id": 0,
     "name": "Final Fantasy",
     "platforme": "Nintendo",
     "type": "RPG",
     "developer": "Squaresoft",
-    "editeur": "Square Co., Ltd",
+    "editor": "Square Co., Ltd",
     "format": "Cartridge (4 Mo)",
     "release": "12-18-1987",
     "img": "https://old.ffdream.com/data/media/images/ff1/coverfrontnes.jpg"
   },
 
   {
-    "id": 1,
     "name": "Final Fantasy II",
     "platforme": "Nintendo",
     "type": "RPG",
@@ -24,7 +22,6 @@
   },
 
   {
-    "id": 2,
     "name": "Final Fantasy III",
     "platforme": "Nintendo",
     "type": "RPG",
@@ -36,7 +33,6 @@
   },
 
   {
-    "id": 3,
     "name": "Final Fantasy IV",
     "platforme": "Super Nintendo",
     "type": "RPG",
@@ -48,7 +44,6 @@
   },
 
   {
-    "id": 4,
     "name": "Final Fantasy V",
     "platforme": "Super Nintendo",
     "type": "RPG",
@@ -60,7 +55,6 @@
   },
 
   {
-    "id": 5,
     "name": "Final Fantasy VI",
     "platforme": "Super Nintendo",
     "type": "RPG",
@@ -72,7 +66,6 @@
   },
 
   {
-    "id": 6,
     "name": "Final Fantasy VII",
     "platforme": "PlayStation",
     "type": "RPG",
@@ -84,7 +77,6 @@
   },
 
   {
-    "id": 7,
     "name": "Final Fantasy VIII",
     "platforme": "PlayStation",
     "type": "RPG",
@@ -96,7 +88,6 @@
   },
 
   {
-    "id": 8,
     "name": "Final Fantasy IX",
     "platforme": "PlayStation",
     "type": "RPG",
@@ -108,7 +99,6 @@
   },
 
   {
-    "id": 9,
     "name": "Final Fantasy X",
     "platforme": "PlayStation2",
     "type": "RPG",
@@ -120,7 +110,6 @@
   },
 
   {
-    "id": 10,
     "name": "Final Fantasy X-2",
     "platforme": "PlayStation2",
     "type": "RPG",
@@ -132,7 +121,6 @@
   },
 
   {
-    "id": 11,
     "name": "Final Fantasy XI",
     "platforme": "PC",
     "type": "MMORPG",
@@ -144,7 +132,6 @@
   },
 
   {
-    "id": 12,
     "name": "Final Fantasy XII",
     "platforme": "PlayStation2",
     "type": "RPG",
@@ -156,7 +143,6 @@
   },
 
   {
-    "id": 13,
     "name": "Final Fantasy XIII",
     "platforme": "PlayStation3",
     "type": "RPG",
@@ -168,7 +154,6 @@
   },
 
   {
-    "id": 14,
     "name": "Final Fantasy XIII-2",
     "platforme": "PlayStation3",
     "type": "RPG",
@@ -180,7 +165,6 @@
   },
 
   {
-    "id": 15,
     "name": "Final Fantasy XIV",
     "platforme": "PC",
     "type": "MMORPG",
@@ -192,7 +176,6 @@
   },
 
   {
-    "id": 16,
     "name": "Final Fantasy XV",
     "platforme": "PlayStation4",
     "type": "RPG",
