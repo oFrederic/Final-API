@@ -35,6 +35,7 @@ const gameSchema = new mongoose.Schema({
     required: [true, 'A game must have a img'],
   },
 });
+console.log();
 
 const Game = mongoose.model('Game', gameSchema);
 
