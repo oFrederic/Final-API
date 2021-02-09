@@ -7,8 +7,7 @@ exports.getAllGames = async (req, res) => {
     //   .equals('Nintendo')
     //   .where('developer')
     //   .equals('Squaresoft');
-
-    const games = await Game.find(req.body);
+    const games = await Game.find(req.query);
 
     res.status(200).json({
       status: 'success',
