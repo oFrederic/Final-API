@@ -6,7 +6,6 @@
 
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-
       <v-toolbar-title>Final Fantasy Browser</v-toolbar-title>
     </v-app-bar>
 
@@ -29,7 +28,7 @@
       <v-container>
         <v-row>
           <v-col v-for="game in games" :key="game" cols="4">
-            <v-img :src="game.img" height="400"></v-img>
+            <v-img :src="game.img" max-width="100%" height="auto"></v-img>
           </v-col>
         </v-row>
       </v-container>
@@ -40,7 +39,6 @@
 <script>
 export default {
   mounted() {
-    console.log('this.getGames() running...');
     this.getGames();
   },
 
@@ -60,7 +58,6 @@ export default {
       this.$store.dispatch('loadGames');
     },
     onPlatformClick(platform) {
-      console.log('onPlatformClick running....', platform);
       if (platform === 'All') {
         this.$store.dispatch('clearFilter');
       } else {

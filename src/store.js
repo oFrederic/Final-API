@@ -24,19 +24,19 @@ export default new Vuex.Store({
   actions: {
     async loadGames() {
       try {
-        const { data: games } = await axios.get('api/games');
+        const { data: res } = await axios.get('api/games');
 
-        const items = games.data.games;
+        const games = res.data.games;
         const platforms = ['All'];
 
-        for (let index = 0; index < items.length; index++) {
-          const game = items[index];
+        for (let index = 0; index < games.length; index++) {
+          const game = games[index];
           if (!platforms.includes(game.platforme))
             platforms.push(game.platforme);
         }
 
-        this.commit('setAllGames', items);
-        this.commit('setDisplayedGames', items);
+        this.commit('setAllGames', games);
+        this.commit('setDisplayedGames', games);
         this.commit('setPlatforms', platforms);
       } catch (err) {
         console.log(err);
